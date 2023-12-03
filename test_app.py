@@ -14,7 +14,7 @@ class FlaskTestCase(unittest.TestCase):
         self.assertIn(b"Welcome to MovieRec", response.data)
 
     def test_recommend_title(self):
-        response = self.app.get("/recommend?title=Known Title")
+        response = self.app.get("/recommend?Movie_Title=Known Title")
         self.assertEqual(response.status_code, 200)
 
     def test_recommend_director(self):
@@ -23,7 +23,7 @@ class FlaskTestCase(unittest.TestCase):
         encoded_director_name = urllib.parse.quote_plus(director_name)
 
         # make the test request
-        response = self.app.get(f"/recommend?directors={encoded_director_name}")
+        response = self.app.get(f"/recommend?Director={encoded_director_name}")
 
         # check if response status code is 200
         self.assertEqual(response.status_code, 200)
