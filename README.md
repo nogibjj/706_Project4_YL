@@ -9,8 +9,8 @@ This repository includes the main tasks for Project 4:
 * `Workflows` includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
 * `.gitignore` is used to specify which files or directories should be excluded from version control when using Git.
 * `README.md` is the instruction file for the readers.
-* `main.py` is a Python file that contains the main function.
-* `test_main.py`  is a test file for `main.py` that can successfully run in IDEs.
+* `app.py` is a Python file that contains the main app function.
+* `test_app.py`  is a test file for `app.py` that can successfully run in IDEs.
 * `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
 
 ## Project description
@@ -33,7 +33,7 @@ either through GitHub Actions or AWS CodeBuild.
 
 * Use codespace for scripting
 * Container built in `devcontainers` and virtual environment activated via `requirements.txt`
-* To run the code, use the command `python main.py` in the terminal
+* To run the app, use the command `python app.py` in the terminal
 
 ## Check format & errors
 
