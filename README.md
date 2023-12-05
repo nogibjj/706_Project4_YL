@@ -36,10 +36,6 @@ either through GitHub Actions or AWS CodeBuild.
 * Container built in `devcontainers` and virtual environment activated via `requirements.txt`
 * To run the app, use the command `python app.py` in the terminal
 
-## Dataset
-
-I used the IMDB dataset from Kaggle to design a movie recommender based on the name of the movie and directors. 
-
 ## Local deployment
 
 First, write a Dockerfile in the root repository.
