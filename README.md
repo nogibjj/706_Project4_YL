@@ -35,6 +35,35 @@ either through GitHub Actions or AWS CodeBuild.
 * Container built in `devcontainers` and virtual environment activated via `requirements.txt`
 * To run the app, use the command `python app.py` in the terminal
 
+## Local deployment
+
+First, write a Dockerfile in the root repository.
+
+Install Docker Desktop on the local machine, and run the followings:
+
+1. Clone the repository: `git clone https://github.com/nogibjj/706_Project4_YL.git`
+
+2. Move to the directory where the Dockerfile locates: `cd 706_Project4_YL`
+
+3. Build the Docker image: `docker build -t movierec:latest .`
+
+4. Run the Docker container: `docker run -p 23333:23333 movierec:latest`
+
+## DockerHub login and Push
+
+`docker login --username=yourusername`
+
+`docker build -t yourusername/reponame`
+
+`docker push yourusername/reponame`
+
+![Alt text](images/dockerpush.png)
+
+## Azure deployment
+
+1. Create Web App on Azure with settings:
+![Alt text](images/azure01.png)
+
 ## Check format & errors
 
 1. make format
