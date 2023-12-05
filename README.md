@@ -77,13 +77,9 @@ Install Docker Desktop on the local machine, and run the followings:
 
 I designed a home page and an about page for the app:
 
-## Check format & errors
+![Alt text](images/home_page.png)
 
-1. make format
-
-2. make lint
-
-3. make test
+![Alt text](images/about_page.png)
 
 
 ## Video link
