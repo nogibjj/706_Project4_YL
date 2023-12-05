@@ -35,6 +35,10 @@ either through GitHub Actions or AWS CodeBuild.
 * Container built in `devcontainers` and virtual environment activated via `requirements.txt`
 * To run the app, use the command `python app.py` in the terminal
 
+## Dataset
+
+I used the IMDB dataset from Kaggle to design a movie recommender based on the name of the movie and directors. 
+
 ## Local deployment
 
 First, write a Dockerfile in the root repository.
@@ -51,11 +55,11 @@ Install Docker Desktop on the local machine, and run the followings:
 
 ## DockerHub login and Push
 
-`docker login --username=yourusername`
+`docker login --username=bistduwohlnichtganzbeitrost`
 
-`docker build -t yourusername/reponame`
+`docker build -t bistduwohlnichtganzbeitrost/movierec`
 
-`docker push yourusername/reponame`
+`docker push bistduwohlnichtganzbeitrost/movierec`
 
 ![Alt text](images/dockerpush.png)
 
@@ -63,6 +67,10 @@ Install Docker Desktop on the local machine, and run the followings:
 
 1. Create Web App on Azure with settings:
 ![Alt text](images/azure01.png)
+![Alt text](images/azure02.png)
+
+2. Add and set WEBSITES_PORT on Azure:
+![Alt text](images/configuration.png)
 
 ## Check format & errors
 
