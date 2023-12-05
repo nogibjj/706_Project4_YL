@@ -75,6 +75,8 @@ Install Docker Desktop on the local machine, and run the followings:
 
 ## Webpage Review
 
+Website: https://movierec-app.azurewebsites.net/about
+
 I designed a home page and an about page for the app:
 
 ![Alt text](images/home_page.png)
