@@ -9,8 +9,9 @@ This repository includes the main tasks for Project 4:
 * `Workflows` includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
 * `.gitignore` is used to specify which files or directories should be excluded from version control when using Git.
 * `README.md` is the instruction file for the readers.
-* `app.py` is a Python file that contains the main app function.
-* `test_app.py`  is a test file for `app.py` that can successfully run in IDEs.
+* `app.py` is a Flask app that can be deployed on Azure App.
+* `Dockerfile` defines the process of the Docker container.
+* `main.py` and `test_main.py` are sample files to function the CI/CD pipeline.
 * `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
 
 ## Project description
