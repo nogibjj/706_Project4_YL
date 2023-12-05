@@ -72,6 +72,14 @@ Install Docker Desktop on the local machine, and run the followings:
 2. Add and set WEBSITES_PORT on Azure:
 ![Alt text](images/configuration.png)
 
+3. Check deployed information on Azure App Services:
+
+![Alt text](images/deployed_info.png)
+
+## Webpage Review
+
+I designed a home page and an about page for the app:
+
 ## Check format & errors
 
 1. make format
