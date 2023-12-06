@@ -86,6 +86,7 @@ I designed a home page and an about page for the app:
 
 ## Video link
 
+https://www.youtube.com/watch?v=OWKo1n5MR2k
 
 ## Reference
 
