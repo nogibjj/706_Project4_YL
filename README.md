@@ -46,17 +46,17 @@ Install Docker Desktop on the local machine, and run the followings:
 
 2. Move to the directory where the Dockerfile locates: `cd 706_Project4_YL`
 
-3. Build the Docker image: `docker build -t movierec:latest .`
+3. Build the Docker image: `docker build -t onlineqa:latest .`
 
-4. Run the Docker container: `docker run -p 23333:23333 movierec:latest`
+4. Run the Docker container: `docker run -p 23333:23333 onlineqa:latest`
 
 ## DockerHub login and Push
 
 `docker login --username=bistduwohlnichtganzbeitrost`
 
-`docker build -t bistduwohlnichtganzbeitrost/movierec`
+`docker build -t bistduwohlnichtganzbeitrost/onlineqa`
 
-`docker push bistduwohlnichtganzbeitrost/movierec`
+`docker push bistduwohlnichtganzbeitrost/onlineqa`
 
 ![Alt text](images/dockerpush.png)
 
@@ -77,7 +77,7 @@ Install Docker Desktop on the local machine, and run the followings:
 
 Website: https://movierec-app.azurewebsites.net
 
-I designed a home page and an about page for the app:
+I designed a home page, an about page, and a API test page for the app:
 
 ![Alt text](images/home_page.png)
 
