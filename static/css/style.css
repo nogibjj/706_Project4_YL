@@ -1,31 +1,25 @@
+/* style.css */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
 }
 
 header {
-    background: #333;
+    background-color: #333;
     color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+    padding: 10px;
 }
 
-nav a {
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
     color: #fff;
-    margin: 0 10px;
     text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background: #333;
-    color: #fff;
 }
