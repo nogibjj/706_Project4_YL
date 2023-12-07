@@ -76,10 +76,16 @@ Website: https://onlineqa.azurewebsites.net/
 
 I designed a home page, an about page, and a API test page for the app:
 
+![Alt text](images/home_page.png)
+
+![Alt text](images/about_page.png)
+
+![Alt text](images/API_test_page.png)
+
 
 ## Video link
 
 
 ## Reference
 
-https://portal.azure.com/#@noahgiftgmail.onmicrosoft.com/resource/subscriptions/ad5ba8f3-b778-4b9d-9245-f43b213d40d7/resourcegroups/MovieRec-App_group/providers/Microsoft.Web/sites/MovieRec-App/appServices
+https://portal.azure.com/#@noahgiftgmail.onmicrosoft.com/resource/subscriptions/ad5ba8f3-b778-4b9d-9245-f43b213d40d7/resourcegroups/OnlineQA_group/providers/Microsoft.Web/sites/OnlineQA/appServices
