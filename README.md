@@ -62,12 +62,9 @@ Install Docker Desktop on the local machine, and run the followings:
 
 ## Azure deployment
 
-1. Create Web App on Azure with settings:
-![Alt text](images/azure01.png)
-![Alt text](images/azure02.png)
+1. Create Web App on Azure with settings on Docker Image:
 
-2. Add and set WEBSITES_PORT on Azure:
-![Alt text](images/configuration.png)
+2. Add and set `WEBSITES_PORT=23333` on Azure:
 
 3. Check deployed information on Azure App Services:
 
@@ -75,18 +72,13 @@ Install Docker Desktop on the local machine, and run the followings:
 
 ## Webpage Review
 
-Website: https://movierec-app.azurewebsites.net
+Website: https://onlineqa.azurewebsites.net/
 
 I designed a home page, an about page, and a API test page for the app:
-
-![Alt text](images/home_page.png)
-
-![Alt text](images/about_page.png)
 
 
 ## Video link
 
-https://www.youtube.com/watch?v=OWKo1n5MR2k
 
 ## Reference
 
